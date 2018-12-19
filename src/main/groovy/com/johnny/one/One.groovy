@@ -7,7 +7,7 @@ class One {
     static List<Integer> changes
 
     static {
-        changes = new File(getClass().getResource('/input.txt').toURI())
+        changes = new File(getClass().getResource('/day-one-input.txt').toURI())
                 .readLines()
                 .collect {
             parseInt(it)
